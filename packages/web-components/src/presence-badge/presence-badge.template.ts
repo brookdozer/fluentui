@@ -1,4 +1,4 @@
-import { html, when } from '@microsoft/fast-element';
+import { html } from '@microsoft/fast-element';
 import {
   statusAvailableGlyph,
   statusAwayGlyph,

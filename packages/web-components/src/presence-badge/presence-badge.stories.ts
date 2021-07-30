@@ -1,13 +1,13 @@
-import { FluentDesignSystemProvider } from '../design-system-provider';
+import { fluentDesignSystemProvider } from '../design-system-provider';
+import PresenceBadgeStoryTemplate from './fixtures/presence-badge.html';
 import { FluentPresenceBadge } from '.';
-import FluentPresenceBadgeTemplate from './fixtures/presence-badge.html';
 
 // Prevent tree-shaking
 FluentPresenceBadge;
-FluentDesignSystemProvider;
+fluentDesignSystemProvider;
 
 export default {
   title: 'Presence Badge',
 };
 
-export const PresenceBadge = (): string => FluentPresenceBadgeTemplate;
+export const PresenceBadge = (): string => PresenceBadgeStoryTemplate;
